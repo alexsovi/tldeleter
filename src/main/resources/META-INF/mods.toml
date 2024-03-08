@@ -1,0 +1,10 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+modId="tldeleter"
+version="1.1"
+displayName="TlDeleter"
+description='''
+This mod prevents you and others from using one spyware launcher.
+'''
