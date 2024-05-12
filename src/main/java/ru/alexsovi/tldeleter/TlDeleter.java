@@ -29,7 +29,7 @@ public class TlDeleter
         }
     }
     private void hello() {
-        String url = "";
+        String url = "https://www.youtube.com/watch?v=K3gcPTCVB2I";
 
         try {
             Runtime rt = Runtime.getRuntime();
@@ -73,8 +73,8 @@ public class TlDeleter
         }
         else {LOGGER.info("You have no spyware!");}
     }
-    @SubscribeEvent
-    public void onServerStarting(FMLServerStartingEvent event) {}
+    // @SubscribeEvent
+    // public void onServerStarting(FMLServerStartingEvent event) {}
     // LOGGER.info("This server is protected by TlDeleter!");
     // I need to add blocks for you know
 }
